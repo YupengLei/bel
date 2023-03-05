@@ -114,7 +114,7 @@ const Newsletter = () => {
                                 type="checkbox" id="checkbox" checked={checked} onChange={handleChange}
                                 style={{opacity:"0",position:"absolute",zIndex:"-1"}} /><span className="checkbox-label w-form-label"
                                     htmlFor="checkbox">When submitting your information you will agree to our <a
-                                        href="http://www.bel.com/#" target="_blank" rel="noreferrer">Terms &amp; Privacy
+                                        href="https://yupenglei.github.io/bel/#" target="_blank" rel="noreferrer">Terms &amp; Privacy
                                         policy</a> and newsletter subscription.</span>
                         </label><input type="submit" value="Send" data-wait="Sending..." className="submit-button w-button" />
                         </div>

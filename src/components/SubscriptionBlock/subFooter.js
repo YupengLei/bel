@@ -61,7 +61,7 @@ const SubFooter = () => {
 						</div>
 						<div className="cta-subline">anytime</div>
 					</div><a fs-copyclip-duration="800" fs-copyclip-element="click" fs-copyclip-message="Copied!"
-						href="https://www.bel.com/#" className="cta-email-btn w-button">hi@bel.com</a>
+						href="https://yupenglei.github.io/bel/#" className="cta-email-btn w-button">hi@bel.com</a>
 					<div className="cta-email__con">
 						<div fs-copyclip-element="copy-this" className="cta-email">hi@bel.com</div>
 					</div>
@@ -127,11 +127,11 @@ const SubFooter = () => {
 
 			<div className="s-footer">
 				<div className="footer-nav">
-					<div className="footer-link"><a href="http://www.bel.com/#">About</a></div>
-					<div className="footer-link"><a href="http://www.bel.com/#">Founder</a></div>
-					<div className="footer-link"><a href="http://www.bel.com/#">Event</a></div>
-					<div className="footer-link"><a href="http://www.bel.com/#">Store</a></div>
-					<div className="footer-link"><a href="http://www.bel.com/#">Contact</a></div>
+					<div className="footer-link"><a href="https://yupenglei.github.io/bel/#">About</a></div>
+					<div className="footer-link"><a href="https://yupenglei.github.io/bel/#">Founder</a></div>
+					<div className="footer-link"><a href="https://yupenglei.github.io/bel/#">Event</a></div>
+					<div className="footer-link"><a href="https://yupenglei.github.io/bel/#">Store</a></div>
+					<div className="footer-link"><a href="https://yupenglei.github.io/bel/#">Contact</a></div>
 				</div>
 				<div className="letter-animation-footer">
 					<div className="footer-logo split-text" >
