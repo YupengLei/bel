@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/bel/static/css/main.4efc0d80.css",
+    "main.js": "/bel/static/js/main.833756f1.js",
+    "static/js/328.875e32e9.chunk.js": "/bel/static/js/328.875e32e9.chunk.js",
+    "static/js/281.af92ef3c.chunk.js": "/bel/static/js/281.af92ef3c.chunk.js",
+    "static/js/478.0d4eaac5.chunk.js": "/bel/static/js/478.0d4eaac5.chunk.js",
+    "static/js/32.98e99bc2.chunk.js": "/bel/static/js/32.98e99bc2.chunk.js",
+    "static/media/heidi.png": "/bel/static/media/heidi.a6cc4f1f83c7d7e30c44.png",
+    "static/media/bel.png": "/bel/static/media/bel.9d6c065895f5fb4c53f5.png",
+    "static/media/mission.svg": "/bel/static/media/mission.cf9edc13481aa8aed42b1a58ec2c0220.svg",
+    "static/media/history.svg": "/bel/static/media/history.03081bdb6a3e4ab234876c860484a143.svg",
+    "static/media/contact-icn.svg": "/bel/static/media/contact-icn.829e08ef14ad6f68f870032af3c99664.svg",
+    "static/media/follow-icn.svg": "/bel/static/media/follow-icn.6e03ac3f97d4a0dccdcbab4f3fb1d6db.svg",
+    "index.html": "/bel/index.html",
+    "static/media/tiktok.svg": "/bel/static/media/tiktok.2d8b260a5c7d38f99a93abe5eb71bf64.svg",
+    "static/media/twitter.svg": "/bel/static/media/twitter.571aaba8b3d2fe57b3d51defe21a4d9a.svg",
+    "static/media/facebook.svg": "/bel/static/media/facebook.7b72b1b3923635ea2027dc5c0b720dcd.svg",
+    "static/media/scroll-top.svg": "/bel/static/media/scroll-top.0648b465496519ceb00ea6e9f693e449.svg",
+    "static/media/youtube.svg": "/bel/static/media/youtube.d7a929c6dcef264f8fbdedaeb43cc05c.svg",
+    "static/media/instagram.svg": "/bel/static/media/instagram.ce5698b92649013e6f91d294bd7baf15.svg",
+    "main.4efc0d80.css.map": "/bel/static/css/main.4efc0d80.css.map",
+    "main.833756f1.js.map": "/bel/static/js/main.833756f1.js.map",
+    "328.875e32e9.chunk.js.map": "/bel/static/js/328.875e32e9.chunk.js.map",
+    "281.af92ef3c.chunk.js.map": "/bel/static/js/281.af92ef3c.chunk.js.map",
+    "478.0d4eaac5.chunk.js.map": "/bel/static/js/478.0d4eaac5.chunk.js.map",
+    "32.98e99bc2.chunk.js.map": "/bel/static/js/32.98e99bc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4efc0d80.css",
+    "static/js/main.833756f1.js"
+  ]
+}
