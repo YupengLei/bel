@@ -1,10 +1,5 @@
 import { lazy } from "react";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import How from "../../components/HowWeWork/how";
-import Who from "../../components/WhoWeAre/who";
-import What from "../../components/WhatWeDo/what";
-import Intro from "../../components/Intro/intro";
-import Partner from "../../components/partner/partner";
 import Newsletter from "../../components/Newsletter/newsletter";
 import About from "../../components/About/about";
 import Founder from "../../components/Founder/founder";

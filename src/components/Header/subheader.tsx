@@ -1,21 +1,9 @@
 import "./subheader.css";
-import { SvgIcon } from "../../common/SvgIcon";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import logo from "../../img/svg/bel.png";
 
 import { useState } from "react";
-import { Col, Drawer } from "antd";
 
-import {
-    Menu,
-    CustomNavLinkSmall,
-    Label,
-    Outline,
-    Span,
-} from "./styles";
+
 
 
 
@@ -24,13 +12,13 @@ const SubHeader = () => {
 
     const [visible, setVisibility] = useState(false);
 
-    const showDrawer = () => {
+    /*const showDrawer = () => {
         setVisibility(!visible);
     };
 
     const onClose = () => {
         setVisibility(!visible);
-    };
+    };*/
 
     const scrollTo = (id: string) => {
         const element = document.getElementById(id) as HTMLDivElement;
@@ -40,7 +28,7 @@ const SubHeader = () => {
         setVisibility(false);
     };
 
-    const MenuItem = () => {
+    /*const MenuItem = () => {
 
         return (
             <>
@@ -56,7 +44,7 @@ const SubHeader = () => {
 
             </>
         );
-    };
+    };*/
 
 
 
@@ -132,30 +120,3 @@ const SubHeader = () => {
 export default SubHeader;
 
 
-/*
-onClick={props.showSearch}
-style={!props.visibleSearch ? searchStyleClose : searchStyleOpen}
-
-
-
- <div className="g-header__search" >
-                            <div className="g-header__search__container">
-                                <form action="" >
-                                    <input className="a-input g-header__search__input" placeholder="Search" aria-label="Search input" name="q"
-                                        data-search-input="" autoComplete="off" id="search" />
-                                    <button className="g-header__search__submit" aria-label="Submit search" disabled={true}>
-                                        <span className="visually-hidden" >submit</span>
-                                        <figure className="g-header__navIcon" aria-hidden="true" ><i><FontAwesomeIcon icon={faMagnifyingGlass} /></i></figure>
-
-                                    </button>
-                                    <button className="g-header__search__close" type="button" data-meganav-toggle=""
-                                        aria-label="Close search and navigation" >
-                                        <span className="visually-hidden">close navigation</span>
-                                        <figure className="g-header__navIcon" aria-hidden="true"><i><FontAwesomeIcon icon={faXmark} /></i></figure>
-                                    </button>
-                                </form>
-
-
-                            </div>
-                        </div>
-*/

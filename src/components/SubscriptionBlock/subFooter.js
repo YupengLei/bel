@@ -4,13 +4,6 @@ import { faCreativeCommons } from '@fortawesome/free-brands-svg-icons';
 import { faCreativeCommonsBy } from '@fortawesome/free-brands-svg-icons';
 import { faCreativeCommonsNc } from '@fortawesome/free-brands-svg-icons';
 import { faCreativeCommonsNd } from '@fortawesome/free-brands-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Contact from "../../components/ContactForm";
-import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import contactIcon from '../../img/svg/contact-icn.svg';
 import facebookIcon from '../../img/svg/facebook.svg';
 import youtubeIcon from '../../img/svg/youtube.svg';
@@ -22,12 +15,12 @@ import followIcon from '../../img/svg/follow-icn.svg';
 
 const SubFooter = () => {
 
-	const scrollTo = (id) => {
+	/*const scrollTo = (id) => {
 		const element = document.getElementById(id);
 		element.scrollIntoView({
 			behavior: "smooth",
 		});
-	};
+	};*/
 
 
 	return (
@@ -107,25 +100,25 @@ const SubFooter = () => {
 						<div className="cta-subline green">anywhere</div>
 					</div>
 					<div className="cta__social-icns"><a data-w-id="e6cec9d1-5cd2-4dac-f786-0a95ae830eca"
-						href="https://www.facebook.com/bel" target="_blank" className="social-icn-con w-inline-block"
+						href="https://www.facebook.com/bel" target="_blank" rel="noreferrer" className="social-icn-con w-inline-block"
 						><img src={facebookIcon} loading="lazy" alt=""
 							className="social-icn" />
 						<div className="social-title">Facebook</div>
 					</a><a data-w-id="e6cec9d1-5cd2-4dac-f786-0a95ae830ece"
-						href="https://www.youtube.com/channel/bel" target="_blank"
+						href="https://www.youtube.com/channel/bel" target="_blank" rel="noreferrer"
 						className="social-icn-con youtube w-inline-block" ><img
 								src={youtubeIcon} loading="lazy" alt="" className="social-icn" />
 							<div className="social-title">YouTube</div>
 						</a><a data-w-id="e6cec9d1-5cd2-4dac-f786-0a95ae830ed2" href="https://www.instagram.com/bel/"
-							target="_blank" className="social-icn-con ig w-inline-block"><img
+							target="_blank" rel="noreferrer" className="social-icn-con ig w-inline-block"><img
 								src={instagramIcon} loading="lazy" alt="" className="social-icn" />
 							<div className="social-title">Instagram</div>
 						</a><a data-w-id="e6cec9d1-5cd2-4dac-f786-0a95ae830ed6" href="https://twitter.com/bel"
-							target="_blank" className="social-icn-con twitter w-inline-block" ><img
+							target="_blank" rel="noreferrer" className="social-icn-con twitter w-inline-block" ><img
 								src={twitterIcon} loading="lazy" alt="" className="social-icn" />
 							<div className="social-title">Twitter</div>
 						</a><a data-w-id="b3557dfd-049a-cc56-08b4-3e03446bd705" href="https://www.tiktok.com/@bel"
-							target="_blank" className="social-icn-con tiktok w-inline-block" ><img
+							target="_blank" rel="noreferrer" className="social-icn-con tiktok w-inline-block" ><img
 								src={tiktokIcon} loading="lazy" alt="" className="social-icn" />
 							<div className="social-title">TikTok</div>
 						</a></div>
@@ -134,11 +127,11 @@ const SubFooter = () => {
 
 			<div className="s-footer">
 				<div className="footer-nav">
-					<div className="footer-link"><a href="#">About</a></div>
-					<div className="footer-link"><a href="#">Founder</a></div>
-					<div className="footer-link"><a href="#">Event</a></div>
-					<div className="footer-link"><a href="#">Store</a></div>
-					<div className="footer-link"><a href="#">Contact</a></div>
+					<div className="footer-link"><a href="http://www.bel.com/#">About</a></div>
+					<div className="footer-link"><a href="http://www.bel.com/#">Founder</a></div>
+					<div className="footer-link"><a href="http://www.bel.com/#">Event</a></div>
+					<div className="footer-link"><a href="http://www.bel.com/#">Store</a></div>
+					<div className="footer-link"><a href="http://www.bel.com/#">Contact</a></div>
 				</div>
 				<div className="letter-animation-footer">
 					<div className="footer-logo split-text" >
